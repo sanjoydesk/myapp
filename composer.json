@@ -1,6 +1,6 @@
 {
     "name": "sanjoy87/myapp",
-    "version": "1.1.0",
+    "version": "dev-master",
     "description": "A simple test of My App",
     "type": "library",
     "keywords": ["my", "app"],
