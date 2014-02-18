@@ -1,25 +1,19 @@
 {
     "name": "sanjoy87/myapp",
-    "description": "A simple test of My App",
     "type": "library",
-    "keywords": ["my", "app"],
+    "description": "PHP Composer test",
+    "keywords": ["framework", "http", "rest"],
     "license": "MIT",
-    "homepage": "https://github.com/sanjoy87",
     "authors": [
         {
             "name": "Sanjoy Dey",
-            "email": "dey.sanjoy0@gmail.com",
-            "role": "Developer"
+            "email": "dey.sanjoy0@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.3.0",
-        "sanjoy87/myapp": "dev-master"    
+        "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": {
-            "MyApp": "src/"
-        }
-    },
-     "minimum-stability": "dev"
+        "psr-0": { "MyApp": "src/" }
+    }
 }
