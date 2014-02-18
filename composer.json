@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "sanjoy87/myapp": "1.0.2"    
+        "sanjoy87/myapp": "1.0.*@dev"    
     },
     "autoload": {
         "psr-0": {
