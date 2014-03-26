@@ -12,10 +12,10 @@
     ],
     "require": {
         "php": ">=5.3.8",
-        "sanjoy87/framework" : "dev-master"
+        "sanjoy87/framework" : "1.0.6"
     },
     "autoload": {
-        "psr-0": { "MyApp": "src/" }
+        "psr-0": { "MyApp": "src/",    "Cygnite\\" : "src/" }
     },
      "minimum-stability": "dev"
 }
