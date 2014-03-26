@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.2",
-        "sanjoy87/myapp" : "dev-master"
+        "php": ">=5.3.8",
+        "sanjoy87/framework" : "dev-master"
     },
     "autoload": {
         "psr-0": { "MyApp": "src/" }
