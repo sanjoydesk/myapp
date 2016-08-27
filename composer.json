@@ -11,12 +11,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3.8",
-        "sanjoy87/framework" : "1.0.6"
+        "php": ">=5.3.8"
     },
     "replace": {
-        "cygnite/stripe": "self.version" 
-	},
+        "MyApp/Base": "self.version" 
+    },
     "autoload": {
         "psr-4": {
             "MyApp\\": "src/"
