@@ -1,7 +1,7 @@
 <?php 
 namespace MyApp\Base;
 
-class HelloWorld
+class Hello
 {
 	public function index()
 	{
