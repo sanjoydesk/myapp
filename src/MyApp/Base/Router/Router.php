@@ -1,7 +1,7 @@
 <?php 
 namespace MyApp\Base\Router;
 
-class Router
+class Router implements RouterInterface
 {
 	public function index()
 	{
