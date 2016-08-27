@@ -1,5 +1,5 @@
 {
-    "name": "sanjoy87/myapp",
+    "name": "sanjoydesk/myapp",
     "type": "library",
     "description": "PHP Composer test",
     "keywords": ["framework", "http", "rest"],
@@ -14,8 +14,13 @@
         "php": ">=5.3.8",
         "sanjoy87/framework" : "1.0.6"
     },
+    "replace": {
+        "cygnite/stripe": "self.version" 
+	},
     "autoload": {
-        "psr-0": { "MyApp": "src/",    "Cygnite\\" : "src/" }
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
     },
      "minimum-stability": "dev"
 }
