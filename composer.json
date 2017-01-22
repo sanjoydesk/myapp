@@ -14,7 +14,7 @@
         "php": ">=5.3.8"
     },
     "replace": {
-        "sanjoydesk/testing-split": "self.version",
+        "sanjoydesk/testing-split": "self.version"
     },
     "autoload": {
         "psr-4": {
